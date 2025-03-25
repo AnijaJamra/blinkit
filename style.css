@@ -18,19 +18,31 @@ nav{
     display: flex;
     align-items: center;
     justify-content: space-evenly;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.31);
+   
    
 }
 nav img{
     width:150px;
+    height:73px;
+    border-right: 1px solid rgba(128, 128, 128, 0.289);
  
 }
+.combine-btn {
+    padding: 10px;
+    width:300px;
+}
 
-input{
+.input-btn{
     padding: 20px;
     height: 50px;
     width:700px;
     border-radius: 10px;
     font-size: 19px;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: start;
     border: none;
     border: 1px solid rgba(128, 128, 128, 0.41);
     background-color: rgba(128, 128, 128, 0.064);
@@ -67,7 +79,7 @@ input{
     height: 35px;
     width: 220px;
     border-radius:5px;
-    color: green;
+    color: blue;
     border: none;
     border: 1px solid rgba(128, 128, 128, 0.122);
     background-color: white;
@@ -85,8 +97,9 @@ input{
     justify-content:space-evenly;
 }
 span{
-    width:100px;
+    width:80px;
     text-align: end;
+    font-size: 15px;
 }
 
 .box{
@@ -100,6 +113,7 @@ span{
     justify-content:space-between;
     flex-direction: column;
     box-shadow: -59px -72px 300px -113px rgba(0,0,0,0.75);
+    border: 1px solid rgba(128, 128, 128, 0.286);
     
 
 }
